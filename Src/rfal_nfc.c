@@ -316,7 +316,7 @@ void rfalNfcWorker( void )
 		rfalFieldOnAndStartGT();                              /* Turns the Field On  */
 		gNfcDev.isFieldOn = true;
 
-		HAL_Delay(2000U); //how long the field stays ON for
+		HAL_Delay(1000U); //how long the field stays ON for
 //
 		rfalFieldOff();
 		gNfcDev.isFieldOn = false;
